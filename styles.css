@@ -1,5 +1,5 @@
 body {
-  background: #193546;
+  background: #fff2d1;
   color: white;
   font-family: 'helvetiva neue', sans-serif;
   font-weight: 100px;
@@ -24,7 +24,7 @@ img {
 }
 .controls {
   margin-bottom: 50px;
-  text-align: left;
+  text-align: center;
   width: 200px;
   background:rgba(255,255,255,0.2);
   border-radius: 25px;
@@ -32,8 +32,6 @@ img {
   -webkit-box-shadow: -5px -1px 266px 20px rgba(0,0,0,1);
   -moz-box-shadow: -5px -1px 266px 20px rgba(0,0,0,1);
   box-shadow: -5px -1px 266px 20px rgba(0,0,0,1);
-
-
 }
 :root {
   --base: #ffc600;
@@ -48,5 +46,16 @@ img {
   height: 200px;
   position: relative;
   width:  100%;
-
+}
+.imgcontainer {
+  margin-top: 69px;
+  text-align: center;
+  display: inline-flex;;
+  height: 200px;
+  position: fixed;
+  width:  100%;
+  z-index: -3;
+}
+.h1 {
+  color : var(--base);
 }
